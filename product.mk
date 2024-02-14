@@ -10,3 +10,5 @@ endif
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/extra/build/target/product/security/zz9
+
+-include vendor/zz9-priv/keys/keys.mk
