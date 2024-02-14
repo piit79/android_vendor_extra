@@ -7,3 +7,6 @@ ifeq ($(INCLUDE_GAPPS),true)
     endif
     WITH_GMS := true
 endif
+
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+    vendor/extra/build/target/product/security/zz9
